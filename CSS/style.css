@@ -123,4 +123,8 @@ aside{  text-align: center;}
     border bottom: 1px;
    }
   
-
+.secciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
