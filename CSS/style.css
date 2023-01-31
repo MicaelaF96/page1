@@ -163,3 +163,19 @@ section{
     font-family: 'IBM Plex Serif', serif;
     color: black;
 }
+.fa-whatsapp{
+    color: green;
+    font-size: 150%;
+}
+.fa-instagram{
+    color:blueviolet;
+    font-size: 150%;
+    width: 2%;
+    height: 2%;
+}
+.fa-locacion{
+    color: red;
+    font-size: 150%;
+    width: 2%;
+    height: 2%;
+}
