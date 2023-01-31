@@ -1,4 +1,9 @@
 
+.backgroundindex{
+    color: rgb(250, 146, 202);
+
+}
+
 h1{
     
     color: rgb(135, 86, 180);
@@ -100,8 +105,8 @@ legend{
 aside{  text-align: center;}
 
 
-.texto{
-    background-color: blueviolet;
+.backgroundquienes{
+    background-color: rgb(228, 204, 252);
     
    
 }
@@ -111,7 +116,8 @@ aside{  text-align: center;}
         color: black;  }
 
 
-   .transformacion1:hover{ 
+   .transformacion1:hover{
+     
     
     transform: rotate(45deg)
 
@@ -123,8 +129,37 @@ aside{  text-align: center;}
     border bottom: 1px;
    }
   
-.secciones{
+
+/* flex-box */
+.columnash{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 10%;
+}
+
+    
+
+
+
+div{
+    font-family: 'Catamaran', sans-serif;
+    padding: 30px 22px;
+    margin: 5px 10px;
+    text-align: center;
+    }
+section{
+    background-color: rgb(238, 184, 243);
+
+}
+.backgroundshop{
+    
+    background-color: rgb(253, 228, 255);
+    
+    
+}
+.footer{
+    font-family: 'IBM Plex Serif', serif;
+    color: black;
 }
